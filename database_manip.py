@@ -4,7 +4,6 @@ db = sqlite3.connect('student_db.db')
 cursor = db.cursor()
 
 # Create table
-db.commit()
 cursor.execute('''
     CREATE TABLE python_programming(id INTEGER PRIMARY KEY, name TEXT, grade INTEGER)
 ''')
