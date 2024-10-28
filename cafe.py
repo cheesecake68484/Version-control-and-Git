@@ -14,10 +14,11 @@ price = {'Tea': 1,
         }
 # Initialize variable, iterate through stock dict. calculate total stock worth
 item_value = 0
+
 for items in stock:
     item_value += (stock [items] * price [items])
+
 total_stock = item_value
+
 # Print the value of all the stock
 print(f"The total stock value is: £{total_stock}")
-
-# I don't understand what the purpose of the menu list is ?
